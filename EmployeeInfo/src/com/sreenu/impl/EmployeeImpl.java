@@ -7,6 +7,12 @@ public class EmployeeImpl {
 	{
 		System.out.println(e.getEid()+" "+e.getEname()+" "+e.getSalary());
 	}
+	public void show(int eid)
+	{
+		
+		System.out.println(eid);
+		
+	}
 	public static void main(String[] args)
 	{
 		EmployeeImpl emp=new EmployeeImpl();
